@@ -1,0 +1,16 @@
+{
+  "checked_replications": 405,
+  "checked_PV_rows": 4050,
+  "planned_replications": 405,
+  "complete_BRR_factors": [
+    "TEACHSUP",
+    "MATHEFF",
+    "DISCLIM",
+    "BELONG",
+    "ICTSCH"
+  ],
+  "all_completed_checkpoints_passed": true,
+  "entire_plan_complete": true,
+  "partial_BRR_p_values_reported": false,
+  "check_time": "2026-10-30 15:09:49"
+}

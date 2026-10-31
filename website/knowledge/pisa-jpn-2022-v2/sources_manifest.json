@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "shap",
+    "original_path": "D:\\pisa2022\\outputs_final_shap_42_features\\shap_importance_pooled.csv",
+    "snapshot_path": "sources/shap.csv",
+    "sha256": "3ce8ac12d61a2b7e88cd3972dd30311dcc784c0bc1cdca024cf3debc0070e28c"
+  },
+  {
+    "source_id": "dml",
+    "original_path": "D:\\pisa2022\\outputs_grade_agent_formal\\dml_results_pooled.csv",
+    "snapshot_path": "sources/dml.csv",
+    "sha256": "2366146b3bf566027124c869b45468e85cb1755be8226e5164433bc04a03221f"
+  },
+  {
+    "source_id": "pv_stability",
+    "original_path": "D:\\pisa2022\\outputs_grade_agent_formal\\dml_stability_check.csv",
+    "snapshot_path": "sources/pv_stability.csv",
+    "sha256": "30c57afab66ad91c8a52d1f1c4bc11b1ac9453f972d612d1b6ad4d4128c3d65c"
+  },
+  {
+    "source_id": "legacy_rules",
+    "original_path": "D:\\pisa2022\\outputs_grade_agent_formal\\agent_rule_mapping_formal.csv",
+    "snapshot_path": "sources/legacy_rules.csv",
+    "sha256": "ab634ac9a076ebbaed1def287818ca1b70985b971127f1fea294348da32d5bf4"
+  },
+  {
+    "source_id": "extra_trees",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\dml_sensitivity_results.csv",
+    "snapshot_path": "sources/extra_trees.csv",
+    "sha256": "779418922a17f5102aeee56a2eaeaa2249776e90907db9f04ca50b2052c8cac5"
+  },
+  {
+    "source_id": "random_forest",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\followup_20261028\\random_forest_pooled.csv",
+    "snapshot_path": "sources/random_forest.csv",
+    "sha256": "ac5b469d5241040d9a62bcb535ec32008c49bccd2ce520bc086a5361674d49db"
+  },
+  {
+    "source_id": "brr",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\followup_20261028\\BRR_pooled_available_factors.csv",
+    "snapshot_path": "sources/brr.csv",
+    "sha256": "91bf10451b55947e7ec0c75f6b3c9ec58cfe39ce4217bb49c232c0598f2e98ab"
+  },
+  {
+    "source_id": "brr_audit",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\followup_20261028\\independent_audit_status.json",
+    "snapshot_path": "sources/brr_audit.json",
+    "sha256": "12d46d38fc3ed3382d300fc514d6316757758fd1402e7ea8f2fee786936bf5ac"
+  },
+  {
+    "source_id": "split_shap",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\shap_rank_stability.csv",
+    "snapshot_path": "sources/split_shap.csv",
+    "sha256": "e75192f8527dfd411c0c27097d01d11778f8e057cc49c976ea9db618b82fa3c0"
+  },
+  {
+    "source_id": "split_metrics",
+    "original_path": "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\robustness_checks\\predictive_stability_summary.csv",
+    "snapshot_path": "sources/split_metrics.csv",
+    "sha256": "63910327e6704713c409dfa642bc4ea6a036d1de81de1143da7d39367ee4c10c"
+  },
+  {
+    "source_id": "model_metrics",
+    "original_path": "D:\\pisa2022\\outputs_five_models_tuned_42_features\\tuned_five_model_metrics_summary.csv",
+    "snapshot_path": "sources/model_metrics.csv",
+    "sha256": "0999310aa38de8452efc5f51ec74cbea0629c10901c513e6a74e8fe578bf01ef"
+  }
+]

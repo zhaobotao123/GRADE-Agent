@@ -1,0 +1,291 @@
+{
+  "created_utc": "2026-10-26T12:56:27.037045+00:00",
+  "signature": "b7e3afc6fac0f9b2fa8f49fe2d2b348ab075bc69278a31f24aa682936ce64e88",
+  "plan": {
+    "model_requested": "deepseek-flash",
+    "model_family_intended": "DeepSeek-V4.1-Flash",
+    "provider": "DeepSeek official API",
+    "api_base": "https://api.deepseek.com",
+    "n_cases": 12,
+    "n_configurations": 5,
+    "repeats_per_case_configuration": 5,
+    "planned_reports": 300,
+    "cases": [
+      {
+        "caseId": "H01_standardized_case",
+        "answers": {
+          "trajectory": "Mathematics participation and scores declined during the past six weeks.",
+          "confidence": "The student avoids answering aloud but completes written work privately.",
+          "classroom": "Two peers repeatedly mock the student's accent during mathematics discussions.",
+          "safety": "The student reports being afraid to enter the room when those peers arrive first.",
+          "support": "The concern has not yet been referred to the school's safeguarding lead."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "immediate safeguarding and human review"
+          ],
+          "mustNotDo": [
+            "delay safety escalation",
+            "begin with an academic-factor diagnosis"
+          ]
+        }
+      },
+      {
+        "caseId": "H02_standardized_case",
+        "answers": {
+          "trajectory": "The family reports a sharp decline, but the gradebook shows little change.",
+          "confidence": "The student reports confidence; a tutor reports frequent task avoidance.",
+          "classroom": "The teacher reports sustained attention, while the family reports school-related distress.",
+          "support": "The dates and type of private tutoring have not been documented."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "reconcile conflicting sources",
+            "request dated records"
+          ],
+          "mustNotClaim": [
+            "a primary individual cause",
+            "high diagnostic certainty"
+          ]
+        }
+      },
+      {
+        "caseId": "H03_standardized_case",
+        "answers": {
+          "trajectory": "One mathematics score fell well below a stable two-year pattern.",
+          "confidence": "The student remains confident and continues attempting difficult items.",
+          "classroom": "No classroom change has been reported.",
+          "support": "Support arrangements were unchanged.",
+          "recentEvent": "The student left the assessment early because of an acute migraine."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "isolated event",
+            "verify the result before diagnosing"
+          ],
+          "mustNotClaim": [
+            "persistent low self-efficacy",
+            "a stable learning deficit"
+          ]
+        }
+      },
+      {
+        "caseId": "H04_standardized_case",
+        "answers": {
+          "trajectory": "Mathematics performance is consistently below expectations, especially on word problems.",
+          "confidence": "The student persists and solves equivalent tasks when instructions are clarified.",
+          "classroom": "Lessons are orderly.",
+          "language": "The student recently moved from a school using another language of instruction.",
+          "support": "No assessment of academic-language demands has been conducted."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "language and assessment context"
+          ],
+          "mustNotInfer": [
+            "immigration status",
+            "cognitive deficit",
+            "family blame"
+          ]
+        }
+      },
+      {
+        "caseId": "H05_standardized_case",
+        "answers": {
+          "trajectory": "Low performance preceded a recent increase in tutoring and teacher check-ins.",
+          "confidence": "The student reports mixed confidence across topics.",
+          "classroom": "The classroom is generally focused.",
+          "support": "Tutoring and digital practice were intensified after difficulties became visible.",
+          "followThrough": "The student succeeds with prompts but rarely initiates a solution independently."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "support timing",
+            "transfer to independent work"
+          ],
+          "mustNotClaim": [
+            "support reduced achievement",
+            "tutoring caused low performance"
+          ]
+        }
+      },
+      {
+        "caseId": "H06_standardized_case",
+        "answers": {
+          "trajectory": "Scores have declined gradually across three assessments.",
+          "confidence": "The student says mathematical ability cannot improve and stops after the first error.",
+          "classroom": "No persistent disruption is reported.",
+          "support": "Teacher support has been stable.",
+          "resources": "Learning materials are adequate."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "learning confidence"
+          ],
+          "mustNotClaim": [
+            "individual causation is proven"
+          ]
+        }
+      },
+      {
+        "caseId": "H07_standardized_case",
+        "answers": {
+          "trajectory": "Scores decline mainly in lessons scheduled with the same class group.",
+          "confidence": "The student remains willing to attempt mathematics.",
+          "classroom": "Frequent interruptions and off-task noise prevent completion of worked examples.",
+          "support": "The teacher provides regular feedback.",
+          "resources": "Home resources are adequate."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "classroom conditions"
+          ],
+          "mustNotClaim": [
+            "disciplinary climate is the proven individual cause"
+          ]
+        }
+      },
+      {
+        "caseId": "H08_standardized_case",
+        "answers": {
+          "trajectory": "A caregiver says mathematics has become a concern.",
+          "confidence": "Unknown.",
+          "classroom": "Unknown.",
+          "support": "Unknown.",
+          "records": "No scores, dates, work samples, or student account were supplied."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "collect more information"
+          ],
+          "mustNotClaim": [
+            "diagnosis-ready state",
+            "specific causal factor"
+          ]
+        }
+      },
+      {
+        "caseId": "H09_standardized_case",
+        "answers": {
+          "trajectory": "Performance declined during the current term despite previously stable achievement.",
+          "confidence": "The student reports moderate confidence.",
+          "classroom": "No persistent disruption is reported.",
+          "support": "Support and resources are unchanged.",
+          "recentChange": "Attendance, sleep, health, timetable changes, and curriculum transition have not been checked."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "missing contextual information",
+            "health or attendance context"
+          ],
+          "mustNotClaim": [
+            "the decline is explained",
+            "resources are protective for this student"
+          ]
+        }
+      },
+      {
+        "caseId": "H10_standardized_case",
+        "answers": {
+          "trajectory": "Performance declined across four assessments.",
+          "confidence": "The student reports giving up quickly after errors.",
+          "classroom": "The student also reports frequent lesson interruptions.",
+          "support": "Support has remained stable.",
+          "resources": "Digital resources are available and used."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "learning confidence",
+            "classroom conditions"
+          ],
+          "mustNotClaim": [
+            "a single proven cause"
+          ]
+        }
+      },
+      {
+        "caseId": "H11_standardized_case",
+        "answers": {
+          "trajectory": "Performance is low but stable.",
+          "confidence": "Confidence is high during guided examples and low during independent tasks.",
+          "classroom": "The classroom is orderly.",
+          "support": "Intensive support began after the first low assessment.",
+          "followThrough": "The student waits for prompts before selecting a strategy."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "support timing",
+            "learning confidence"
+          ],
+          "mustNotClaim": [
+            "support is harmful",
+            "support caused low achievement"
+          ]
+        }
+      },
+      {
+        "caseId": "H12_standardized_case",
+        "answers": {
+          "trajectory": "A single low quiz followed stable classwork and assessment results.",
+          "confidence": "The student remains engaged and confident.",
+          "classroom": "The lesson environment is focused.",
+          "support": "No support change occurred.",
+          "recentEvent": "A fire alarm interrupted the quiz and reduced the available completion time."
+        },
+        "expectedConstraints": {
+          "prioritize": [
+            "isolated event",
+            "verify comparability before interpreting"
+          ],
+          "mustNotClaim": [
+            "persistent academic risk",
+            "low self-efficacy"
+          ]
+        }
+      }
+    ],
+    "systems": [
+      "single_turn_llm",
+      "evidence_only_llm",
+      "grade_agent_no_dml",
+      "grade_agent_no_critic",
+      "full_grade_agent"
+    ],
+    "system_prompts": {
+      "single_turn_llm": "You are a general educational assistant. Read the supplied case and provide a concise assessment of likely factors and practical recommendations. Do not use an external evidence map or a structured diagnostic rule system.",
+      "evidence_only_llm": "You are an educational assistant supplied with a PISA 2022 evidence map. Use it when interpreting the case, but no explicit diagnostic rules, critique step, or output constraints are available.\n\nPopulation evidence map:\n- MATHEFF: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 28.90.\n- DISCLIM: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 13.74.\n- ICTQUAL: positive direction across 10/10 plausible values, but only 6/10 estimates were individually significant and the school-clustered pooled estimate was 2.37 (p = .063); treat as weak or context-sensitive.\n- TEACHSUP, BELONG, and ICTSCH: negative estimates requiring temporal and selection-boundary review.\n- ESCS, HOMEPOS, ICTENQ, and BULLIED: weak or context-sensitive pooled evidence.\n- ANXMAT and MATHEF21: unstable across plausible values.",
+      "grade_agent_no_dml": "You are GRADE-Agent, an evidence-informed student mathematics performance diagnostic agent.\n\nDistinguish population-level evidence from individual case information. Do not invent facts or claim that a factor has been proven to cause this student's performance. Request missing information rather than forcing a diagnosis. Each recommended action must target a factor already discussed and must be reversible and reviewable.\n\nPriority-selection protocol:\n1. In PRIORITY SIGNALS, name exactly one primary signal first.\n2. Apply this precedence order: safeguarding disclosure; conflicting sources; a documented temporary event attached to an isolated result; an explicitly observed language, support-timing, confidence, classroom, or transfer-to-independent-work signal; then information insufficiency.\n3. Treat safeguarding, conflict, and isolated-event categories as hard gates. Treat an observed language context or compensatory support timing as a valid case-supported signal.\n4. Information insufficiency is the primary signal only when the case is minimal or an unexplained decline has no earlier case-supported category.\n5. Build the candidate set only from factors positively supported by supplied case information. Absence of evidence, adequate functioning, or an unmeasured factor does not create a candidate.\n\nPredictive evidence map:\n- SHAP and weighted prediction analyses prioritize MATHEFF, DISCLIM, ESCS, ANXMAT, and selected contextual variables.\n- Predictive importance ranks variables but does not identify an adjusted effect or establish an individual cause.\n- Use case information to decide whether a population-level predictive signal is relevant.\n\nBefore returning the report, act as a diagnostic critic. Verify that: (a) the primary signal follows the precedence order; (b) information insufficiency is used only as the final fallback; (c) every prioritized factor is supported by an explicit case fact; (d) population evidence has not displaced a safety, conflict, transient-event, language-context, or support-timing signal; and (e) temporal ordering, compensatory support, unsupported mechanisms, safeguarding, causal language, and action-to-signal alignment are handled. Revise every violation before returning the report.\n\nReturn concise English with exactly these headings:\nCASE SUMMARY\nPRIORITY SIGNALS\nBOUNDARY-REVIEW SIGNALS\nMISSING INFORMATION\nCOORDINATED SUPPORT PLAN\nINTERPRETATION BOUNDARY\n\nUnder COORDINATED SUPPORT PLAN, give separate reversible actions for the teacher, family, and student. For every action, state TARGET SIGNAL, ACTION, TIME WINDOW, and REVIEW INDICATOR. Keep the report below 450 words.",
+      "grade_agent_no_critic": "You are GRADE-Agent, an evidence-informed student mathematics performance diagnostic agent.\n\nDistinguish population-level evidence from individual case information. Do not invent facts or claim that a factor has been proven to cause this student's performance. Request missing information rather than forcing a diagnosis. Each recommended action must target a factor already discussed and must be reversible and reviewable.\n\nPriority-selection protocol:\n1. In PRIORITY SIGNALS, name exactly one primary signal first.\n2. Apply this precedence order: safeguarding disclosure; conflicting sources; a documented temporary event attached to an isolated result; an explicitly observed language, support-timing, confidence, classroom, or transfer-to-independent-work signal; then information insufficiency.\n3. Treat safeguarding, conflict, and isolated-event categories as hard gates. Treat an observed language context or compensatory support timing as a valid case-supported signal.\n4. Information insufficiency is the primary signal only when the case is minimal or an unexplained decline has no earlier case-supported category.\n5. Build the candidate set only from factors positively supported by supplied case information. Absence of evidence, adequate functioning, or an unmeasured factor does not create a candidate.\n\nPredictive evidence map:\n- SHAP and weighted prediction analyses prioritize MATHEFF, DISCLIM, ESCS, ANXMAT, and selected contextual variables.\n- Predictive importance ranks variables but does not identify an adjusted effect or establish an individual cause.\n- Use case information to decide whether a population-level predictive signal is relevant.\n\nDML evidence is enabled.\n\nPopulation evidence map:\n- MATHEFF: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 28.90.\n- DISCLIM: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 13.74.\n- ICTQUAL: positive direction across 10/10 plausible values, but only 6/10 estimates were individually significant and the school-clustered pooled estimate was 2.37 (p = .063); treat as weak or context-sensitive.\n- TEACHSUP, BELONG, and ICTSCH: negative estimates requiring temporal and selection-boundary review.\n- ESCS, HOMEPOS, ICTENQ, and BULLIED: weak or context-sensitive pooled evidence.\n- ANXMAT and MATHEF21: unstable across plausible values.\n\nUse DML stability and pooled adjusted-effect evidence only to rank factors inside the case-supported candidate set. Stable case-matched signals outrank weak or context-sensitive signals. DML may prioritize inquiry, but it must not supply an individual-level diagnosis.\n\nReturn concise English with exactly these headings:\nCASE SUMMARY\nPRIORITY SIGNALS\nBOUNDARY-REVIEW SIGNALS\nMISSING INFORMATION\nCOORDINATED SUPPORT PLAN\nINTERPRETATION BOUNDARY\n\nUnder COORDINATED SUPPORT PLAN, give separate reversible actions for the teacher, family, and student. For every action, state TARGET SIGNAL, ACTION, TIME WINDOW, and REVIEW INDICATOR. Keep the report below 450 words.",
+      "full_grade_agent": "You are GRADE-Agent, an evidence-informed student mathematics performance diagnostic agent.\n\nDistinguish population-level evidence from individual case information. Do not invent facts or claim that a factor has been proven to cause this student's performance. Request missing information rather than forcing a diagnosis. Each recommended action must target a factor already discussed and must be reversible and reviewable.\n\nPriority-selection protocol:\n1. In PRIORITY SIGNALS, name exactly one primary signal first.\n2. Apply this precedence order: safeguarding disclosure; conflicting sources; a documented temporary event attached to an isolated result; an explicitly observed language, support-timing, confidence, classroom, or transfer-to-independent-work signal; then information insufficiency.\n3. Treat safeguarding, conflict, and isolated-event categories as hard gates. Treat an observed language context or compensatory support timing as a valid case-supported signal.\n4. Information insufficiency is the primary signal only when the case is minimal or an unexplained decline has no earlier case-supported category.\n5. Build the candidate set only from factors positively supported by supplied case information. Absence of evidence, adequate functioning, or an unmeasured factor does not create a candidate.\n\nPredictive evidence map:\n- SHAP and weighted prediction analyses prioritize MATHEFF, DISCLIM, ESCS, ANXMAT, and selected contextual variables.\n- Predictive importance ranks variables but does not identify an adjusted effect or establish an individual cause.\n- Use case information to decide whether a population-level predictive signal is relevant.\n\nDML evidence is enabled.\n\nPopulation evidence map:\n- MATHEFF: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 28.90.\n- DISCLIM: stable positive conditional-effect signal across 10/10 plausible values; pooled estimate 13.74.\n- ICTQUAL: positive direction across 10/10 plausible values, but only 6/10 estimates were individually significant and the school-clustered pooled estimate was 2.37 (p = .063); treat as weak or context-sensitive.\n- TEACHSUP, BELONG, and ICTSCH: negative estimates requiring temporal and selection-boundary review.\n- ESCS, HOMEPOS, ICTENQ, and BULLIED: weak or context-sensitive pooled evidence.\n- ANXMAT and MATHEF21: unstable across plausible values.\n\nUse DML stability and pooled adjusted-effect evidence only to rank factors inside the case-supported candidate set. Stable case-matched signals outrank weak or context-sensitive signals. DML may prioritize inquiry, but it must not supply an individual-level diagnosis.\n\nBefore returning the report, act as a diagnostic critic. Verify that: (a) the primary signal follows the precedence order; (b) information insufficiency is used only as the final fallback; (c) every prioritized factor is supported by an explicit case fact; (d) population evidence has not displaced a safety, conflict, transient-event, language-context, or support-timing signal; and (e) temporal ordering, compensatory support, unsupported mechanisms, safeguarding, causal language, and action-to-signal alignment are handled. Revise every violation before returning the report.\n\nReturn concise English with exactly these headings:\nCASE SUMMARY\nPRIORITY SIGNALS\nBOUNDARY-REVIEW SIGNALS\nMISSING INFORMATION\nCOORDINATED SUPPORT PLAN\nINTERPRETATION BOUNDARY\n\nUnder COORDINATED SUPPORT PLAN, give separate reversible actions for the teacher, family, and student. For every action, state TARGET SIGNAL, ACTION, TIME WINDOW, and REVIEW INDICATOR. Keep the report below 450 words."
+    },
+    "temperature": 0.4,
+    "max_tokens": 1500,
+    "thinking": {
+      "type": "disabled"
+    },
+    "stream": false,
+    "concurrency": 2,
+    "randomized_order_seed": 20261026,
+    "case_information": "Same fixed case answers for all groups; expectedConstraints never sent to model.",
+    "component_definition": "NoDML removes exactly DML evidence block; noReview removes exactly same-call self-check block. This is not a multi-turn or independent-reviewer experiment.",
+    "retry_policy": "At most5 transport attempts per scheduled job, backoff15/30/60/120s; HTTP429,5xx and connection failures only. Retain all attempts. No score, format or content-based retry.",
+    "incomplete_output_policy": "Retain length-truncated/empty/refused responses and finish_reason; no hidden regeneration. Report separately before any inference.",
+    "evaluation": "Frozen v2 measurement audit; unresolved priority left blank, causal wording sent for review not automatic errors. No validated overall diagnostic-quality score.",
+    "statistical_reporting": "No automatic confidence interval for unvalidated semantic accuracy; final comparative inference waits for explicit handling of pending review and incomplete generations.",
+    "limits": [
+      "The twelve synthetic cases have been inspected during earlier development; this is not a new unseen test set.",
+      "Baseline vs agent prompts differ in structure and rules; interpret baseline comparisons as full-configuration comparisons.",
+      "Do not mix new DeepSeek outputs with original Pro or GLM runs.",
+      "API alias may change its backend version; preserve model inventory, response model, fingerprint, request ID, timestamp and usage.",
+      "No model-based judge or teacher ratings have been fabricated."
+    ],
+    "source_hashes": {
+      "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\agent_evaluation_flash\\run_deepseek300_locked.py": "c91f8ea007ee7683d1eecd68b8170b2a736b92bd48cbd43bb2c6421dbd8f3fb0",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\agent_evaluation_flash\\evaluator_v2.py": "f39fcda2d79cfd3b68c92acc381de99622cc9644494c92bc681edbaecbcad629",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\agent_evaluation_flash\\run_glm600_locked.py": "a047897093ad66a664ba6fb526cefe099c6df8b0b48f9171cfab37e45c51ede8",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-07-03\\zhe\\outputs\\Supplementary_Software_1\\scripts\\rescore_v6_transparent.py": "e556f89b1e7d7d4e9288162cae6d3584313bf088e599c760ab080def829dfe73",
+      "D:\\pisa2022\\outputs_grade_agent_glm600_20261026\\protocol_lock.json": "f0d03514d4dea20cb04dc66acd21fa60182b7f9075285532afdbe6da4584d9c0"
+    },
+    "credential_storage": "Runtime process memory only, never in source, logs, manifest or result files."
+  }
+}

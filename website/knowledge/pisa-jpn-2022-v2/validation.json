@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "records": 42,
+  "dml_records": 12,
+  "prediction_only": 30,
+  "sensitivity_records": 15,
+  "source_files": 11,
+  "original_source_hashes_unchanged": true,
+  "runtime_files_checked_unchanged": 10,
+  "runtime_connected": true,
+  "human_editorial_review_complete": false,
+  "runtime_unchanged_check_scope": "before integration, during library build only",
+  "integration_test": "qa/knowledge-integration.test.mjs passed: five ExtraTrees records and Markdown compared with source; mocked outbound request includes library",
+  "deployment": "https://d4671d2c.gradeagent.pages.dev",
+  "live_smoke": {
+    "passed": true,
+    "returned_model": "deepseek-flash",
+    "knowledge_version": "pisa-jpn-2022-v2",
+    "correct_ExtraTrees_teacher_support": true
+  }
+}

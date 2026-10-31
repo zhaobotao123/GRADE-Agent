@@ -1,0 +1,13 @@
+﻿treatment,pv_count,direction_consistent,significant_pv_count,pooled_p_value,stability_label
+ANXMAT,10,False,0,0.8965502709155049,unstable_across_pv
+BELONG,10,True,10,1.1321264485886218e-06,stable_adjusted_signal
+BULLIED,10,True,1,0.3588299971020519,weak_or_context_sensitive_signal
+DISCLIM,10,True,10,4.705125178361413e-13,stable_adjusted_signal
+ESCS,10,True,4,0.16466654297325967,weak_or_context_sensitive_signal
+HOMEPOS,10,True,2,0.1405729461216918,weak_or_context_sensitive_signal
+ICTENQ,10,True,0,0.3500186754832195,weak_or_context_sensitive_signal
+ICTQUAL,10,True,6,0.06260896820491757,weak_or_context_sensitive_signal
+ICTSCH,10,True,10,0.00021380968693929248,stable_adjusted_signal
+MATHEF21,10,False,0,0.9993277246277497,unstable_across_pv
+MATHEFF,10,True,10,0.0,stable_adjusted_signal
+TEACHSUP,10,True,10,0.006953904910007136,stable_adjusted_signal

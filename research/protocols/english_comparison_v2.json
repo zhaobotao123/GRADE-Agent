@@ -1,0 +1,280 @@
+{
+  "signature": "32c3c5d4f4a793a9b7530b7aab27d2ae73da3e667d1ef99b3d10ec3e869b51b0",
+  "created_utc": "2026-10-27T07:03:18.455561+00:00",
+  "plan": {
+    "name": "English conversational final-reply comparison",
+    "model": "deepseek-flash",
+    "systems": [
+      "ordinary_llm",
+      "grade_agent"
+    ],
+    "cases": [
+      {
+        "case_id": "H01_standardized_case",
+        "facts": {
+          "trajectory": "Mathematics participation and scores declined during the past six weeks.",
+          "confidence": "The student avoids answering aloud but completes written work privately.",
+          "classroom": "Two peers repeatedly mock the student's accent during mathematics discussions.",
+          "safety": "The student reports being afraid to enter the room when those peers arrive first.",
+          "support": "The concern has not yet been referred to the school's safeguarding lead."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Mathematics participation and scores declined during the past six weeks. The student reports being afraid to enter the room when those peers arrive first.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student avoids answering aloud but completes written work privately. Two peers repeatedly mock the student's accent during mathematics discussions.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: The concern has not yet been referred to the school's safeguarding lead. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H02_standardized_case",
+        "facts": {
+          "trajectory": "The family reports a sharp decline, but the gradebook shows little change.",
+          "confidence": "The student reports confidence; a tutor reports frequent task avoidance.",
+          "classroom": "The teacher reports sustained attention, while the family reports school-related distress.",
+          "support": "The dates and type of private tutoring have not been documented."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. The family reports a sharp decline, but the gradebook shows little change.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student reports confidence; a tutor reports frequent task avoidance. The teacher reports sustained attention, while the family reports school-related distress.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: The dates and type of private tutoring have not been documented. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H03_standardized_case",
+        "facts": {
+          "trajectory": "One mathematics score fell well below a stable two-year pattern.",
+          "confidence": "The student remains confident and continues attempting difficult items.",
+          "classroom": "No classroom change has been reported.",
+          "support": "Support arrangements were unchanged.",
+          "recentEvent": "The student left the assessment early because of an acute migraine."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. One mathematics score fell well below a stable two-year pattern.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student remains confident and continues attempting difficult items. No classroom change has been reported.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Support arrangements were unchanged. The student left the assessment early because of an acute migraine. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H04_standardized_case",
+        "facts": {
+          "trajectory": "Mathematics performance is consistently below expectations, especially on word problems.",
+          "confidence": "The student persists and solves equivalent tasks when instructions are clarified.",
+          "classroom": "Lessons are orderly.",
+          "language": "The student recently moved from a school using another language of instruction.",
+          "support": "No assessment of academic-language demands has been conducted."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Mathematics performance is consistently below expectations, especially on word problems.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student persists and solves equivalent tasks when instructions are clarified. Lessons are orderly.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: The student recently moved from a school using another language of instruction. No assessment of academic-language demands has been conducted. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H05_standardized_case",
+        "facts": {
+          "trajectory": "Low performance preceded a recent increase in tutoring and teacher check-ins.",
+          "confidence": "The student reports mixed confidence across topics.",
+          "classroom": "The classroom is generally focused.",
+          "support": "Tutoring and digital practice were intensified after difficulties became visible.",
+          "followThrough": "The student succeeds with prompts but rarely initiates a solution independently."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Low performance preceded a recent increase in tutoring and teacher check-ins.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student reports mixed confidence across topics. The classroom is generally focused.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Tutoring and digital practice were intensified after difficulties became visible. The student succeeds with prompts but rarely initiates a solution independently. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H06_standardized_case",
+        "facts": {
+          "trajectory": "Scores have declined gradually across three assessments.",
+          "confidence": "The student says mathematical ability cannot improve and stops after the first error.",
+          "classroom": "No persistent disruption is reported.",
+          "support": "Teacher support has been stable.",
+          "resources": "Learning materials are adequate."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Scores have declined gradually across three assessments.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student says mathematical ability cannot improve and stops after the first error. No persistent disruption is reported.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Teacher support has been stable. Learning materials are adequate. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H07_standardized_case",
+        "facts": {
+          "trajectory": "Scores decline mainly in lessons scheduled with the same class group.",
+          "confidence": "The student remains willing to attempt mathematics.",
+          "classroom": "Frequent interruptions and off-task noise prevent completion of worked examples.",
+          "support": "The teacher provides regular feedback.",
+          "resources": "Home resources are adequate."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Scores decline mainly in lessons scheduled with the same class group.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student remains willing to attempt mathematics. Frequent interruptions and off-task noise prevent completion of worked examples.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: The teacher provides regular feedback. Home resources are adequate. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H08_standardized_case",
+        "facts": {
+          "trajectory": "A caregiver says mathematics has become a concern.",
+          "confidence": "Unknown.",
+          "classroom": "Unknown.",
+          "support": "Unknown.",
+          "records": "No scores, dates, work samples, or student account were supplied."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. A caregiver says mathematics has become a concern.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: Unknown. Unknown.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Unknown. No scores, dates, work samples, or student account were supplied. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H09_standardized_case",
+        "facts": {
+          "trajectory": "Performance declined during the current term despite previously stable achievement.",
+          "confidence": "The student reports moderate confidence.",
+          "classroom": "No persistent disruption is reported.",
+          "support": "Support and resources are unchanged.",
+          "recentChange": "Attendance, sleep, health, timetable changes, and curriculum transition have not been checked."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Performance declined during the current term despite previously stable achievement.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student reports moderate confidence. No persistent disruption is reported.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Support and resources are unchanged. Attendance, sleep, health, timetable changes, and curriculum transition have not been checked. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H10_standardized_case",
+        "facts": {
+          "trajectory": "Performance declined across four assessments.",
+          "confidence": "The student reports giving up quickly after errors.",
+          "classroom": "The student also reports frequent lesson interruptions.",
+          "support": "Support has remained stable.",
+          "resources": "Digital resources are available and used."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Performance declined across four assessments.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student reports giving up quickly after errors. The student also reports frequent lesson interruptions.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Support has remained stable. Digital resources are available and used. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H11_standardized_case",
+        "facts": {
+          "trajectory": "Performance is low but stable.",
+          "confidence": "Confidence is high during guided examples and low during independent tasks.",
+          "classroom": "The classroom is orderly.",
+          "support": "Intensive support began after the first low assessment.",
+          "followThrough": "The student waits for prompts before selecting a strategy."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. Performance is low but stable.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: Confidence is high during guided examples and low during independent tasks. The classroom is orderly.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: Intensive support began after the first low assessment. The student waits for prompts before selecting a strategy. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      },
+      {
+        "case_id": "H12_standardized_case",
+        "facts": {
+          "trajectory": "A single low quiz followed stable classwork and assessment results.",
+          "confidence": "The student remains engaged and confident.",
+          "classroom": "The lesson environment is focused.",
+          "support": "No support change occurred.",
+          "recentEvent": "A fire alarm interrupted the quiz and reduced the available completion time."
+        },
+        "user_turns": [
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. I would like help understanding a student's mathematics learning. A single low quiz followed stable classwork and assessment results.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the next information available: The student remains engaged and confident. The lesson environment is focused.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Here is the remaining information I can provide: No support change occurred. A fire alarm interrupted the quiz and reduced the available completion time. I do not have further details beyond these observations.",
+          "Please reply only in English throughout this conversation, including every follow-up and the final summary. Please now write a brief final summary in English, in one natural paragraph of approximately 80-140 words: what should receive attention, and what could be tried first? Base your response on the information available."
+        ]
+      }
+    ],
+    "repeats": 5,
+    "planned_conversations": 120,
+    "turns_per_conversation": 4,
+    "temperature": 0.25,
+    "max_tokens": 1400,
+    "thinking": "disabled",
+    "seed": 20261027,
+    "concurrency": 2,
+    "baseline_prompt": "You are a helpful conversational assistant. A teacher or caregiver is discussing a student's mathematics learning. Respond in English, engage naturally with what they say, ask a relevant follow-up when useful, and provide helpful practical advice when asked. Do not assume that all the information is known.\nFor the common interface only: return JSON with phase (question, summary, or safety_escalation), reply (your actual answer), questionFocus, coverage (confirmed domain keys), and suggestedReplies (empty array). Use one focused question on question turns. Domain keys are trajectory, confidence, classroom, support_timing, context_safety. When asked for a final summary, write one natural paragraph of approximately 80-140 English words, without headings or bullets. Do not expose interface bookkeeping in the reply.",
+    "source_hashes": {
+      "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\agent_evaluation_flash\\run_conversation_comparison_v2.py": "4dca1a294065cc1834a3c079a67f97b33da39774b801c109607d714c63ddb52f",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-08-09\\zh\\agent_evaluation_flash\\conversation_comparison_worker_v2.mjs": "2ced474a0bc31caf91d6b783318e405da4e41f56efc2a72476e38e323d48843a",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-07-03\\zhe\\gradeagent\\functions\\api\\chat.js": "874df0f4a457466a96b4b5baffe642b224ef575bf387631205b4780e6e33dc07",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-07-03\\zhe\\gradeagent\\functions\\lib\\conversation.js": "1dbdbae42378a8abe2fecc8b460e2139f069a1d0de13c6edcd73a95358a3cfca",
+      "C:\\Users\\84130\\Documents\\Codex\\2026-07-03\\zhe\\gradeagent\\functions\\lib\\llm.js": "166bfd0f0883dc3084f05247112a8df0a2c1732da834eaac1ecdf256b8919035",
+      "D:\\pisa2022\\outputs_grade_agent_deepseek41flash300_20261026\\protocol_lock.json": "393d4c4661c570e41fb95b3549beec330c0676b9c78976aee181beeb878d2c45"
+    },
+    "comparison_scope": "Same base model, scripted English user updates, facts, order, turn budget, final length instruction. Compare final reply quality, not adaptive questioning skill. Agent includes actual app prompt, validation and safety middleware; baseline has neutral ordinary-assistant instructions plus the same interface schema/validator. No attribution to a single component.",
+    "generation_policy": "All API attempts, finish reasons, model IDs and usage retained. At most four transport attempts per call (5/10/20-second backoff). Actual app allows one format-repair call; baseline has the same allowance. Failed conversations remain failed; no content/quality-based reruns. No automatic teacher ratings or winner.",
+    "teacher_evaluation": {
+      "dimensions": [
+        "contextual relevance",
+        "consistency with case facts",
+        "appropriateness and actionability of suggestions",
+        "clarity"
+      ],
+      "scale": "1 very poor, 2 poor, 3 adequate, 4 good, 5 very good; dimension-specific anchors must be provided before scoring",
+      "raters": "Two independent teachers, blinded A/B, randomized order, originals unmodified",
+      "primary_outcome": "appropriateness and actionability of suggestions",
+      "secondary_outcomes": "remaining three dimensions; report all with multiplicity-aware interpretation",
+      "analysis": "Case is the cluster; repetitions are not independent students. Report paired case-level differences with case-cluster bootstrap CI; inter-rater agreement; no weighted composite ranking. Small n=12 and exploratory inference disclosed.",
+      "dimension_anchors": {
+        "contextual relevance": {
+          "1": "Misses the central concern or is largely unrelated.",
+          "3": "Addresses the concern but includes generic or distracting material or misses an important relevant point.",
+          "5": "Focuses on the case-relevant concern and priorities without treating neutral background as a problem."
+        },
+        "consistency with case facts": {
+          "1": "Invents or contradicts a central fact or states an unsupported individual cause as established.",
+          "3": "Mostly consistent but contains a material unsupported inference or insufficiently qualified interpretation.",
+          "5": "Faithfully uses the supplied facts, distinguishes unknown from absent, and keeps conclusions within what those facts support."
+        },
+        "appropriateness and actionability of suggestions": {
+          "1": "Advice is unsuitable, unsafe, or not usable for this case.",
+          "3": "Advice is broadly suitable but insufficiently specific or poorly adapted to the available information.",
+          "5": "Proposes feasible, concrete first steps appropriate to the case and its uncertainties; requesting missing information or prioritizing safety can be fully appropriate."
+        },
+        "clarity": {
+          "1": "Difficult to follow or understand.",
+          "3": "Understandable overall but contains unnecessary jargon, repetition, or unclear organization.",
+          "5": "Clear, coherent, concise and accessible to a teacher or caregiver."
+        },
+        "intermediate_scores": "2 lies between 1 and 3; 4 lies between 3 and 5. Do not reward length, statistical jargon, or agreement with a preferred system. A score of 5 does not establish diagnostic correctness or real-world educational benefit."
+      }
+    },
+    "limitations": [
+      "These 12 synthetic cases were previously examined and used in development; not unseen validation.",
+      "Predefined staged updates may not answer the exact follow-up question; same updates for both groups isolate final-reply comparison.",
+      "Ordinary LLM does not receive the agent research prompt; this is a full-system comparison, not DML ablation.",
+      "New English conversation outputs cannot replace or relabel old report experiments."
+    ],
+    "references": {
+      "general_evaluation_framework": "https://aclanthology.org/2023.emnlp-main.153/",
+      "groundedness_framework": "https://aclanthology.org/2024.eacl-demo.16/"
+    },
+    "rubric_status": "Adapted task-specific rubric, NOT a validated educational diagnostic scale. Teacher review pending.",
+    "credentials": "stdin and process memory only",
+    "language_control": {
+      "version": "v2",
+      "shared_system_instruction": "Every reply field and suggested continuation must be written only in English, on every turn. This overrides any default-language instruction. Preserve all other system-specific behavior and the required JSON schema.",
+      "shared_user_instruction": "Please reply only in English throughout this conversation, including every follow-up and the final summary.",
+      "audit": "Retain all generations. Record any Han-script characters in user-facing replies; this is an automatic script check, not proof of English. Noncompliant outputs remain in the data and are not selectively regenerated.",
+      "prior_batch": "v1 retained in its original folder as pilot/development batch:119 completed,1 failed,16 conversations with Chinese intermediate text. No v1 outputs reused."
+    },
+    "transport_timeout_seconds": 90
+  }
+}
